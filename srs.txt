@@ -1,0 +1,14 @@
+1) Purpose
+	a) an application that allows restaraunt customers to submit orders and to obviously be received by the employees.
+	b) intended to be used by both customers and employees, using separate logins.
+
+2) System Features and Requirements
+	a) customer functions: 
+		i) cusomters will be able to add and remove items from the menu, and submit them as they total up in price in the cart. 
+		ii) customers have the option to pay with cash or card, and the proper input fields will be displayed upon selection. Extra input option for a tip will be available.
+		iii) a total review will be available before final confirmation of purchase, including customer name, total amount, and the estimated time required to complete the order. 
+		iv) customer will receive digital receipt after purchase.
+		v) set up a username/password specific to them.
+	b) managerial functions: 
+		i) set up a username/password specific to them.
+		ii) add/remove items from the menu that customers can select from.
