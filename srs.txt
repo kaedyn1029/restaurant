@@ -1,0 +1,34 @@
+1. Introduction
+           1.1 Purpose
+	       An application to display the menu from which customers will be able to order food and checkout through the system.
+           1.2 Intended Audience
+	       Restaurant managment and restaurant customers.
+           1.3 Intended Use
+	       Allow user to place orders for food.
+           1.4 Scope
+	       Single restaurant.
+2. Overall Description
+        2.1 User Needs
+	    Place orders, display receipt edit menu if authenticated.
+        2.2 Assumptions and Dependencies
+	    Simple hosting, Static admin login ok, Users should be able to crate acount.
+3. System Features and Requirements
+        3.1 Functional Requirements
+	    1. Enter a name for the order.
+	    2. Direct the customer to the menu page.
+	    3. The customer will be able to select items from the menu.
+	    4. The customer will be given the flexibility to add and remove items from the cart.
+	    5. The customer will be given the option to pay with a card or cash and will have an extra field to add some tips.
+	    6. The customer should be able to place the order successfully. 
+	    7. The customer will be provided a receipt at the end of the order which will show, the items order, customer name, total amount, and the time required to complete the order.
+	3.2 External Interface Requirements
+	    None
+        3.3 System Features
+	    Payment system
+	    User authentication
+	    Admin authentication
+	    Change Menu
+	    Change branding
+        3.4 Nonfunctional Requirements
+	    DarkMode
+
