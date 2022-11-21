@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+iframe{
+    height: 4em;
+    width: 100%;
+    background-color: pink;
+    border: none;
+}
 
 input{
     width: 25%;
