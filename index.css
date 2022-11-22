@@ -18,6 +18,7 @@ main{
     display: flex;
     height: calc(100vh - 8em);
     flex-wrap: wrap;
+    overflow: scroll;
 }
 
 header{
