@@ -10,3 +10,8 @@
 | Stuffed Ziti Fritta   | Crispy fried ziti filled with five cheeses. Served with alfredo and marinara dipping sauces.                                                                          | 500 cal., marinara 35 cal., alfredo sauce 220 cal. | $8.29  |
 | Lasagna Fritta        | Fried parmesan-breaded lasagna, topped with parmesan cheese and meat sauce**, with creamy alfredo. *Our meat sauce is made with pan-seared beef and Italian sausage.* | 1,130 cal.                                         | $10.49 |
 
+### *Entrees*
+| Item               | Description                                                                                                                                                                                                                                                                                       | Nutrition  | Price  |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------|
+| Chicken Parmigiana | Two lightly fried parmesan-breaded chicken breasts are smothered with Olive Garden’s homemade marinara sauce and melted Italian cheeses. We serve our Chicken Parmigiana with a side of spaghetti for dinner. Try this classic pairing of Italian comfort foods that will leave you saying 'yum!' | 1,020 cal. | $18.29 |
+| Tour of Italy      |
