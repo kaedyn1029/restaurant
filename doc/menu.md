@@ -9,5 +9,4 @@
 | Toasted Ravioli       | Lightly fried ravioli filled with seasoned beef. Served with marinara sauce.                                                                                          | 650 cal., marinara 35 cal.                         | $8.99  |
 | Stuffed Ziti Fritta   | Crispy fried ziti filled with five cheeses. Served with alfredo and marinara dipping sauces.                                                                          | 500 cal., marinara 35 cal., alfredo sauce 220 cal. | $8.29  |
 | Lasagna Fritta        | Fried parmesan-breaded lasagna, topped with parmesan cheese and meat sauce**, with creamy alfredo. *Our meat sauce is made with pan-seared beef and Italian sausage.* | 1,130 cal.                                         | $10.49 |
-|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|--------|
 
