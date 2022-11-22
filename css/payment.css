@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.total{
+    padding: 2em;
+    text-align: center;
+}
+.payment{
+    text-align: center;
+    padding-bottom: 2em;
+}
+.payment-section{
+    text-align: center;
+}
+.payment-section p{
+    font-size: 12px;
+}
+.Credit{
+    display: none;
+}
+.input{
+    padding: 0.6em;
+}
+.MMYY{
+    padding: 0.6em;
+}
+.CVV{
+    padding: 0.6em;
+}
+.CVV input{
+    text-align: center;
+    width: 2%;
+}

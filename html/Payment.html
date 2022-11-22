@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment</title>
+    <link rel="Stylesheet" href="../css/payment.css">
+</head>
+<body>
+    <div class="total">
+        <h1>Total: </h1>
+        <hr>
+    </div>
+    <div class="payment">
+        <select name="payment-method" id="payment-method">
+            <option value="choose">Choose a payment method</option>
+            <option value="Cash">Cash</option>
+            <option value="Credit/Debit">Credit/Debit Card</option>
+        </select>
+    </div>
+    <div class="payment-section">
+        <div class="Credit">
+            <div class="input">
+                <p>Card Number:</p>
+                <input placeholder="Credit/Debit Card Number">                
+            </div>
+            <div class="MMYY">
+                <p>Expiration Date:</p>
+                <label for="Month">MM</label>
+                <select name="Month">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <label for="Year">YY</label>
+                <select name="Year">
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                </select>                    
+            </div>
+            <div class="CVV">
+                <p>CVV:</p>
+                <input placeholder="•••">                
+            </div>
+        </div>
+        <div class="Cash">
+            <button class="btn">Submit Payment</button>
+        </div>
+    </div>
+</body>
+</html>
