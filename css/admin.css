@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: darkgrey;
+}
+
+body{
+    margin: 5vh 2vw;
+    background-color: white;
+    padding: 10vh;
+    height: 90vh;
+}
+
+h4{
+    text-decoration: underline;
+    text-align: left;
+}
+
+section{
+    margin-bottom: 25px;
+}
+
+#logoDiv{
+    width: 25%;
+    text-align: center;
+}
+
+#logoDiv img, #logoDiv p{
+    padding: 10px;
+}
+
+#logoImg{
+    width: 200px;
+    border: 1px solid black;
+}
+
+#add_remove{
+    width: 25%;
+}
+
+#menuItems{
+    list-style: none;
+    text-align: center;
+}
+
+#menuItems li{
+    border: 1px solid black;
+}
+
+#add{
+    width: 60px;
+}
+
+
+
+.fontSec{
+    display: flex;
+    margin: 3px 0px 3px 0px;
+}
+
+.p_font{
+    margin-right: 15px;
+}
