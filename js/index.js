@@ -39,3 +39,5 @@ function make_item(img_src,info_txt,nutrition_txt,price_txt){
 //add item
     main.appendChild(item)
 }
+
+
