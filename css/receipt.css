@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.receipt-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.receipt-text{
+    padding: 2em;
+    border: 1px solid black;
+}
+.receipt-text h5, h1, h6{
+    padding: 0.5em;
+}
