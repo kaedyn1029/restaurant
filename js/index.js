@@ -44,10 +44,12 @@ function make_item(img_src,info_txt,nutrition_txt,price_txt){
 function spawn_items(){
     for (let x in test){
         for (let i=0;i<test[x].length;i++){
-            if(i==0){
-            }else{
+            if(i!=0){
                 make_item(test[x][i].img, test[x][i].about, test[x][i].health, test[x][i].price)
+                continue
+            }else{
                 console.log(test[x][i])
+                continue
             }
         }
     }
