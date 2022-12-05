@@ -3,5 +3,4 @@
 item={img:"",about:"",health:"",price:int}
 
 #users
-[user,user,user]
 user={username:"",email:"",salt:""}

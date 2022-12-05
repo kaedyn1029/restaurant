@@ -1,5 +1,5 @@
 let main=document.getElementById("main")
-let test=[["test",{img:"../images/cat.jpg",about:"test item",health:"bad",price:"17"},{img:"../images/cat.jpg",about:"test item",health:"bad",price:"17"},{img:"../images/cat.jpg",about:"test item",health:"bad",price:"17"}],["test-1",{img:"../images/cat.jpg",about:"test item",health:"bad",price:"17"}]]
+let test=get_menu()
 
 function make_item(img_src,info_txt,nutrition_txt,price_txt){
     let item=document.createElement("div")
