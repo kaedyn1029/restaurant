@@ -16,3 +16,11 @@ body *{
     margin-top: auto;
     margin-bottom: auto;
 }
+
+div{
+    overflow-x: scroll;
+}
+
+a{
+    margin: .5em;
+}
