@@ -8,6 +8,13 @@ html{
     background-color: darkgrey;
 }
 
+iframe{
+    height: 4em;
+    width: 100%;
+    background-color: pink;
+    border: none;
+}
+
 body{
     margin: 5vh 2vw;
     background-color: white;

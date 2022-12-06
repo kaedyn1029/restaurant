@@ -4,20 +4,20 @@
         <title>Administrator Settings</title>
         <link rel = "stylesheet" href = "../css/admin.css">
     </head>
+    <header>
+        <iframe src = "header.html"></iframe> 
+    </header>
     <body>
-        <header>
-
-        </header>
-
         <section id = "changeBrand">
             <h3>Change Brand</h3>
             <br>
             <div id = "logoDiv">
                 <h4>Logo - Icon</h4>
-                <img id = "logoImg" src = "../images/logo.png">    
-                <p>logos/Olive_Garden-Logo.wine.png</p>
+                <img id = "logoImg" src = "../images/logo.png">
+                <input type = "file" id = "imgButton" onchange = "change_logo()"></input>    
 
                 <h4>Logo - Text</h4>
+                <p id = "brand">Olive Garden</p>
                 <input type = "text">
             </div> 
         </section>
@@ -66,5 +66,6 @@
         </section>
 
         <button>Save Configuration</button>
+        <script src = "../js/admin.js"></script>
     </body>
 </html>
