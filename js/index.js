@@ -48,9 +48,19 @@ function spawn_items(){
                 make_item(test[x][i].img, test[x][i].about, test[x][i].health, test[x][i].price)
                 continue
             }else{
-                console.log(test[x][i])
+                make_section(test[x][i]) //name of section
+                let section_title = document.createElement("h3");
+                section_title.innerHTML = test[x][i];
+                main.appendChild(section_title);
                 continue
             }
         }
     }
+}
+
+function make_section(name){
+    let line=document.createElement("br")
+
+    line.id=name
+    main.appendChild(line)
 }
