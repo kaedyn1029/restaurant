@@ -49,9 +49,6 @@ function spawn_items(){
                 continue
             }else{
                 make_section(test[x][i]) //name of section
-                let section_title = document.createElement("h3");
-                section_title.innerHTML = test[x][i];
-                main.appendChild(section_title);
                 continue
             }
         }
@@ -60,7 +57,10 @@ function spawn_items(){
 
 function make_section(name){
     let line=document.createElement("br")
-
     line.id=name
     main.appendChild(line)
+
+    let section_title = document.createElement("h3");
+    section_title.innerHTML = name;
+    main.appendChild(section_title);
 }
