@@ -43,3 +43,15 @@ function salt(pass){
     }
     return salt
 }
+
+function saveimg(file,name){
+    const reader = new FileReader();
+    reader.addEventListener("load", () =>{
+        localStorage.setItem(name,reader.result)
+    });
+    reader.readAsDataURL(file)
+}
+
+function getimg(name){
+    return localStorage.getItem(name)
+}
