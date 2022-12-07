@@ -23,14 +23,26 @@ input{
     display: block;
     margin-bottom: 4px;
 }
+
+#sign{
+    text-align: center;
+}
+
 .sign-container{
     padding-top: 10px;
     display: flex;
     justify-content: space-around;
     padding-bottom: 20px;
 }
+
+#invalid_error{
+    height: 1em;
+    margin-top: 1em;
+}
+
 #btn{
     margin:auto;
+    margin-top: 2em;
     background-color: white;
     padding: 0.5em 1em 0.5em 1em;
     border-radius: 1rem;

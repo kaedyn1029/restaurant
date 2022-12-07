@@ -6,12 +6,14 @@
 </head>
 <body>
     <div class="sign-container">
-        <div class="sign-form">
+        <div id = "sign" class="sign-form">
             <input placeholder="Enter Username"> 
-            <input placeholder="Enter Password"> 
-            <input placeholder="Confirm Password">
+            <input type = "password" id = "pass" placeholder= "Enter Password"> 
+            <input type = "password" id = "pass_verify" onchange = "verify_pass()" placeholder= "Confirm Password">
+            <p id = "invalid_error"></p>
             <button id="btn">Sign Up!</button>
         </div>
     </div>
+    <script src = "../js/sign_up.js"></script>
 </body>
 </html>
