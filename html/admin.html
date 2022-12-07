@@ -7,7 +7,7 @@
     <header>
         <iframe src = "header.html"></iframe> 
     </header>
-    <body>
+    <body onload="logo_update()">
         <section id = "changeBrand">
             <div>
             <h3>Change Brand</h3>
@@ -22,19 +22,12 @@
             <div id = "add_remove">
                 <h4>Add/Remove Items</h4>
                 <ul id = "menuItems">
-                    <ul>
-                        <li>test</li>
-                    </ul>
-                    <ul>
-                        <li>test2</li>
-                    </ul>
                 </ul>
             </div>
             <button>Save Configuration</button>
-            <button id = "add">+</button>
+            <button id = "add" onclick = "add_section()">+</button>
             <br>
         </section>
-
 
         <script src="../js/db.js"></script>
         <script src = "../js/admin.js"></script>

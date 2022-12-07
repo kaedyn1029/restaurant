@@ -33,7 +33,15 @@ ul ul{
 }
 
 li{
-    padding: .5em;
+    overflow: scroll;
+    display: inline-flex;
+    width: calc(100%);
+}
+
+li div{
+    background-color: gray;
+    width: auto;
+    display: inline-grid;
 }
 
 #changeBrand{
