@@ -1,74 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    background-color: darkgrey;
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
 iframe{
-    height: 4em;
-    width: 100%;
-    background-color: pink;
     border: none;
+    height: 4em;
+    width: 100vw;
+    background-color: pink;
 }
 
-body{
-    margin: 5vh 2vw;
-    background-color: white;
-    padding: 10vh;
-    height: 90vh;
-}
-
-h4{
-    text-decoration: underline;
-    text-align: left;
+img{
+    height: 10em;
 }
 
 section{
-    margin-bottom: 25px;
+    background-color: lightgrey;
+    width: 75%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
 }
 
-#logoDiv{
-    width: 25%;
-    text-align: center;
-}
-
-#logoDiv img, #logoDiv p{
-    padding: 10px;
-}
-
-#logoImg{
-    width: 200px;
-    border: 1px solid black;
-}
-
-#add_remove{
-    width: 25%;
-}
-
-#menuItems{
+ul {
     list-style: none;
-    text-align: center;
+    padding: 0px;
 }
 
-#menuItems li{
-    border: 1px solid black;
-}
-
-#add{
-    width: 60px;
-}
-
-
-
-.fontSec{
+ul ul{
     display: flex;
-    margin: 3px 0px 3px 0px;
 }
 
-.p_font{
-    margin-right: 15px;
+li{
+    padding: .5em;
+}
+
+#changeBrand{
+    display: flex;
 }

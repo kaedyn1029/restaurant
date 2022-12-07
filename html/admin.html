@@ -9,63 +9,34 @@
     </header>
     <body>
         <section id = "changeBrand">
+            <div>
             <h3>Change Brand</h3>
-            <br>
-            <div id = "logoDiv">
                 <h4>Logo - Icon</h4>
+                <input type = "file" id = "imgButton" onchange = "change_logo()"></input>
+            </div>
                 <img id = "logoImg" src = "../images/logo.png">
-                <input type = "file" id = "imgButton" onchange = "change_logo()"></input>    
-
-                <h4>Logo - Text</h4>
-                <p id = "brand">Olive Garden</p>
-                <input type = "text">
-            </div> 
         </section>
 
         <section id = "customize">
-            <h3>Customize</h3>
-            <br>
+            <h3>Customize Menu</h3>
             <div id = "add_remove">
                 <h4>Add/Remove Items</h4>
                 <ul id = "menuItems">
-                    <li>test item</li>
-                    <button id = "add">+</button>
+                    <ul>
+                        <li>test</li>
+                    </ul>
+                    <ul>
+                        <li>test2</li>
+                    </ul>
                 </ul>
             </div>
+            <button>Save Configuration</button>
+            <button id = "add">+</button>
             <br>
-
-            <div id = "fonts">
-            <h4>Change Fonts</h4>
-                <div class = "fontSec">
-                    <p class = "p_font" id = "title_font_name">Title </p>
-                    <button class = "btn_font" id = "title_font_btn">Upload Font</button>
-                </div>
-                <div class = "fontSec">
-                    <p class = "p_font" id = "nav_font_name">Navigation Bar</p>
-                    <button class = "btn_font" id = "nav_font_btn">Upload Font</button>
-                </div>
-                <div class = "fontSec">
-                    <p class = "p_font" id = "menuSec_font_name">Menu - Section</p>
-                    <button class = "btn_font" id = "menuSec_font_btn">Upload Font</button>
-                </div>
-                <div class = "fontSec">
-                    <p class = "p_font" id = "menuName_font_name">Menu - Item Name</p>
-                    <button class = "btn_font" id = "menuName_font_btn">Upload Font</button>
-                </div>
-                <div class = "fontSec">
-                    <p class = "p_font" id = "menuDesc_font_name">Menu - Item Description</p>
-                    <button class = "btn_font" id = "menuDesc_font_btn">Upload Font</button>
-                </div>
-                <div class = "fontSec">
-                    <p class = "p_font" id = "menuPrc_font_name">Menu - Item Price</p>
-                    <button class = "btn_font" id = "menuPrc_font_btn">Upload Font</button>
-                </div>
-            </div>
-            <br>
-
         </section>
 
-        <button>Save Configuration</button>
+
+        <script src="../js/db.js"></script>
         <script src = "../js/admin.js"></script>
     </body>
 </html>
