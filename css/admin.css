@@ -44,6 +44,15 @@ li div{
     display: inline-grid;
 }
 
+input p{
+    display: none;
+}
+
+div img{
+    width: 100%;
+}
+
+
 #changeBrand{
     display: flex;
 }
