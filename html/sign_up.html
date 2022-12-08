@@ -7,13 +7,15 @@
 <body>
     <div class="sign-container">
         <div id = "sign" class="sign-form">
-            <input placeholder="Enter Username"> 
+            <input id = "username" placeholder="Enter Username"> 
+            <input id = "email" placeholder = "Enter Email">
             <input type = "password" id = "pass" placeholder= "Enter Password"> 
-            <input type = "password" id = "pass_verify" onchange = "verify_pass()" placeholder= "Confirm Password">
+            <input type = "password" id = "pass_verify"  placeholder= "Confirm Password">
             <p id = "invalid_error"></p>
-            <button id="btn">Sign Up!</button>
+            <button id="btn" onclick = "verify_username()">Sign Up!</button>
         </div>
     </div>
     <script src = "../js/sign_up.js"></script>
+    <script src = "../js/db.js"></script>
 </body>
 </html>

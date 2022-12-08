@@ -28,24 +28,31 @@ input{
     text-align: center;
 }
 
+#sign *{
+    width: 20vw;
+}
+
 .sign-container{
     padding-top: 10px;
     display: flex;
     justify-content: space-around;
     padding-bottom: 20px;
+    width: 30vw;
 }
 
 #invalid_error{
     height: 1em;
     margin-top: 1em;
+    color: red;
 }
 
 #btn{
     margin:auto;
-    margin-top: 2em;
+    margin-top: 2.5em;
     background-color: white;
     padding: 0.5em 1em 0.5em 1em;
     border-radius: 1rem;
+    width: 25%;
 }
 #btn:hover{
     outline: 2px solid rgb(255, 255, 255);
