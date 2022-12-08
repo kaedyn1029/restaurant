@@ -55,3 +55,4 @@ function savelogo(file){
 function getimg(name){
     return localStorage.getItem(name)
 }
+
