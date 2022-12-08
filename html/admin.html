@@ -7,7 +7,7 @@
     <header>
         <iframe src = "header.html"></iframe> 
     </header>
-    <body onload="logo_update()">
+    <body onload="load()">
         <section id = "changeBrand">
             <div>
             <h3>Change Brand</h3>
@@ -24,8 +24,10 @@
                 <ul id = "menuItems">
                 </ul>
             </div>
-            <button>Save Configuration</button>
-            <button id = "add" onclick = "add_section()">+</button>
+            <button onclick="save()">Save Configuration</button>
+            <button id = "add" onclick="add_section()">+</button>
+            <button onclick="remove_section()">-</button>
+
             <br>
         </section>
 

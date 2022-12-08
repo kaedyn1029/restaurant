@@ -12,8 +12,7 @@ function get_menu(){
 }
 
 function set_menu(menu){
-    localStorage.clear("menu")
-    localStorage.setItem("menu", menu)
+    localStorage.setItem("menu", JSON.stringify(menu))
 }
 
 /*user managment*/
@@ -44,10 +43,11 @@ function salt(pass){
     return salt
 }
 
-function saveimg(file,name){
+function savelogo(file){
     const reader = new FileReader();
     reader.addEventListener("load", () =>{
-        localStorage.setItem(name,reader.result)
+        localStorage.setItem("logo",reader.result)
+        logo_update()
     });
     reader.readAsDataURL(file)
 }
