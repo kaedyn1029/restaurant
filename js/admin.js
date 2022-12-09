@@ -42,8 +42,11 @@ function add_item(caller){
     let img_up=document.createElement("input")
     let img_dat=document.createElement("img")
     let about=document.createElement("input")
-    let helth=document.createElement("input")
+    about.setAttribute("placeholder","Brief item description");
+    let health=document.createElement("input")
+    health.setAttribute("placeholder","Nutritional information");
     let price=document.createElement("input")
+    price.setAttribute("placeholder","Price");
 
     img_up.type="file"
     img_up.addEventListener("change",()=>{change_menu_img(img_up)})
@@ -51,7 +54,7 @@ function add_item(caller){
     div.appendChild(img_dat)
     div.appendChild(img_up)
     div.appendChild(about)
-    div.appendChild(helth)
+    div.appendChild(health)
     div.appendChild(price)
     caller.parentElement.appendChild(div)
     return div
