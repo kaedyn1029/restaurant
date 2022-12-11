@@ -1,0 +1,22 @@
+html[data-theme='light'] {
+    --background:#FFF;
+    --header:gray;
+    --footer:gray;
+    --price:lightgray;
+    --item:gray;
+    --item-in:lightgray;
+    --text:black;
+    --link:lightblue;
+}
+
+html[data-theme='dark'] {
+    --background:black;
+    --header:gray;
+    --footer:gray;
+    --price:lightgray;
+    --item:gray;
+    --item-in:lightgray;
+    --text:#FFF;
+    --link:lightblue;
+
+}

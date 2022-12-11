@@ -47,6 +47,7 @@ function make_item(img_src,info_txt,nutrition_txt,price_txt){
 }
 
 function spawn_items(){
+    document.documentElement.setAttribute('data-theme', 'light');
     for (let x in test){
         for (let i=0;i<test[x].length;i++){
             if(i!=0){
