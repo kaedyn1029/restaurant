@@ -38,19 +38,23 @@ function remove_section(){
 }
 
 function add_item(caller){
+    //gen items
     let div=document.createElement("div")
     let img_up=document.createElement("input")
     let img_dat=document.createElement("img")
     let about=document.createElement("input")
-    about.setAttribute("placeholder","Brief item description");
     let health=document.createElement("input")
-    health.setAttribute("placeholder","Nutritional information");
     let price=document.createElement("input")
-    price.setAttribute("placeholder","Price");
 
+    //set attribs
+    about.setAttribute("placeholder","Brief item description");
+    health.setAttribute("placeholder","Nutritional information");
+    price.setAttribute("placeholder","Price");
     img_up.type="file"
     img_up.addEventListener("change",()=>{change_menu_img(img_up)})
     img_dat.src=""
+
+    //output
     div.appendChild(img_dat)
     div.appendChild(img_up)
     div.appendChild(about)

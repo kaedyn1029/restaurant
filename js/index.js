@@ -61,12 +61,9 @@ function spawn_items(){
 }
 
 function make_section(name){
-    let line=document.createElement("br")
-    line.id=name
-    main.appendChild(line)
-
     let section_title = document.createElement("h3");
     section_title.innerHTML = name;
+    section_title.id=name
     main.appendChild(section_title);
 }
 
