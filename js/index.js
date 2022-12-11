@@ -29,6 +29,11 @@ function make_item(img_src,info_txt,nutrition_txt,price_txt){
     let input=document.createElement("input")
     input.type="number"
     input.value=0
+    input.addEventListener("change", ()=>{
+        if(input.value<0)
+            input.value=0
+        update_price()
+    })
 
 //build item
     price_div.appendChild(input)
@@ -63,4 +68,17 @@ function make_section(name){
     let section_title = document.createElement("h3");
     section_title.innerHTML = name;
     main.appendChild(section_title);
+}
+
+function update_price(){
+    let vals=document.getElementsByTagName("input")
+    let out=document.getElementById("price")
+    let p=0
+    for(let x=0;x<vals.length;x++){
+        let num=parseInt(vals[x].value)
+        let val=vals[x].parentElement.children[1].innerHTML
+        val=parseInt(val.slice(1))
+        p+=num*val
+    }
+    out.innerHTML="Price:$"+p
 }
