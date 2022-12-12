@@ -5,8 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     color: var(--text);
+    font-family: Calibiri;
 }
-
 
 iframe{
     height: 4em;
@@ -70,21 +70,21 @@ footer div button{
 }
 
 .item{
-    border-radius: 3em;
+    border-radius: .2em;
     width: 15em;
     height: 15em;
-    margin: 1em;
-    padding: 1em;
+    margin: 0.25em;
+    padding: .25em;
     background-color: var(--item);
 }
 
 .image{
-    height: 75%;
+    height: 85%;
     width: 100%;
     background-color: var(--item-in);
-    border-radius: 3em;
+    border-radius: .2em;
     margin: auto;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     overflow: hidden;
     display: grid;
     grid-template: img;
@@ -96,13 +96,14 @@ footer div button{
 
 .image img{
     height: 100%;
-    border-radius: 3em;
     transition: opacity .5s;
     grid-area: img;
     z-index: 1;
 }
 
 .image p {
+    font-size: 12px;
+    height: 100%;
     padding: 1em;
     grid-area: txt;
     z-index: 0;
@@ -112,10 +113,16 @@ footer div button{
     display: flex;
 }
 
-.price *{
-    margin:auto;
+.price input{
+    text-align: left;
+}
+
+.price p{
+   margin-left: auto;
 }
 
 h3{
+    margin-top: 3em;
+    margin-bottom: 0.5em;
     width: 100%;
 }

@@ -27,10 +27,12 @@ function change_mode(bttn){
         bttn.innerHTML="&#127761;"
         bttn.value=1
         parent.document.documentElement.setAttribute('data-theme', 'light');
+        document.documentElement.setAttribute('data-theme', 'light');
     }else if(bttn.value==1){
         bttn.innerHTML="&#127765"
         bttn.value=0
         parent.document.documentElement.setAttribute('data-theme', 'dark');
+        document.documentElement.setAttribute('data-theme', 'dark');
 
     }
     

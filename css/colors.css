@@ -6,17 +6,17 @@ html[data-theme='light'] {
     --item:gray;
     --item-in:lightgray;
     --text:black;
-    --link:lightblue;
+    --link:gray;
 }
 
 html[data-theme='dark'] {
-    --background:black;
-    --header:gray;
-    --footer:gray;
-    --price:lightgray;
-    --item:gray;
-    --item-in:lightgray;
+    --background:#121212;
+    --header:#0c0c0c;
+    --footer:#0c0c0c;
+    --price:#3b3b3b;
+    --item:#363636;
+    --item-in:#363636;
     --text:#FFF;
-    --link:lightblue;
+    --link: #FFF;
 
 }
