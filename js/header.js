@@ -1,4 +1,5 @@
 let spawnpoint=document.getElementById("spawnpoint")
+let bttn=document.getElementById("but")
 let test=get_menu()
 let img=document.getElementById("logo")
 
@@ -10,8 +11,15 @@ function make_item(name){
     }
 
 function start(){
-    parent.document.documentElement.setAttribute('data-theme', 'light');
-    document.documentElement.setAttribute('data-theme', 'light');
+    let mode=localStorage.getItem("mode")
+    console.log(mode)
+    if(mode=="dark"){
+        console.log("hi")
+        change_mode()
+    }else{
+        parent.document.documentElement.setAttribute('data-theme', 'light');
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
     for (let x in test){
                 make_item(test[x][0])
     }
@@ -22,18 +30,20 @@ function load_logo(){
     img.src=getimg("logo")
 }
 
-function change_mode(bttn){
-
+function change_mode(){
     if(bttn.value==0){
         bttn.innerHTML="&#127761;"
         bttn.value=1
         parent.document.documentElement.setAttribute('data-theme', 'light');
         document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem("mode", "light")
+
     }else if(bttn.value==1){
         bttn.innerHTML="&#127765"
         bttn.value=0
         parent.document.documentElement.setAttribute('data-theme', 'dark');
         document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem("mode", "dark")
 
     }
     
