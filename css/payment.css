@@ -5,13 +5,8 @@ body{
     color: var(--text);
     margin: 0;
     box-sizing: border-box;
-    display: block;
-}
-.total{
-    padding: 2em;
     text-align: center;
-    height: calc(100vh - 4em);
-    overflow: scroll;
+    display: block;
 }
 
 main{
@@ -66,10 +61,4 @@ h2{
     display: grid;
     grid-gap: 1em;
 }
-<<<<<<< HEAD
-.CVV input{
-    text-align: center;
-    width: 2%;
-}
-=======
->>>>>>> refs/remotes/origin/main
+
