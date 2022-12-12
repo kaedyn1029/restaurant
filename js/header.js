@@ -10,6 +10,7 @@ function make_item(name){
     }
 
 function start(){
+    parent.document.documentElement.setAttribute('data-theme', 'light');
     for (let x in test){
                 make_item(test[x][0])
     }
@@ -17,6 +18,20 @@ function start(){
 }
 
 function load_logo(){
-    console.log(img)
     img.src=getimg("logo")
+}
+
+function change_mode(bttn){
+
+    if(bttn.value==0){
+        bttn.innerHTML="&#127761;"
+        bttn.value=1
+        parent.document.documentElement.setAttribute('data-theme', 'light');
+    }else if(bttn.value==1){
+        bttn.innerHTML="&#127765"
+        bttn.value=0
+        parent.document.documentElement.setAttribute('data-theme', 'dark');
+
+    }
+    
 }

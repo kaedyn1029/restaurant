@@ -24,3 +24,10 @@ div{
 a{
     margin: .5em;
 }
+
+button{
+    background-color: transparent;
+    font-size: 200%;
+    border: none;
+    width: auto;
+}
