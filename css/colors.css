@@ -20,3 +20,7 @@ html[data-theme='dark'] {
     --link:lightblue;
 
 }
+
+*{
+    transition: 1s;
+}
