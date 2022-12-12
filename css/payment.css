@@ -4,14 +4,11 @@ body{
     background-color: var(--background);
     color: var(--text);
     margin: 0;
-<<<<<<< HEAD
     box-sizing: border-box;
     display: block;
 }
 .total{
     padding: 2em;
-=======
->>>>>>> refs/remotes/origin/main
     text-align: center;
     height: calc(100vh - 4em);
     overflow: scroll;
@@ -43,10 +40,9 @@ hr{
     width: 100%;
     background-color: black;
 }
-<<<<<<< HEAD
 .input{
     padding: 0.6em;
-=======
+}
 
 #forms{
     border-radius: 1em;
@@ -60,7 +56,6 @@ form{
     height: calc(100%);
     width: inherit;
     background-color: none;
->>>>>>> refs/remotes/origin/main
 }
 
 h2{
