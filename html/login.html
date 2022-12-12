@@ -7,11 +7,11 @@
 <body>
     <div class="login-container">
         <div class="login-form">
-            <input placeholder="Username"> 
-            <input type = "password" placeholder="Password"> 
+            <input id = "email" placeholder="Email"> 
+            <input id = "pass" type = "password" placeholder="Password"> 
             <div class="btn-container">
                 <div class="login-btn">
-                    <button id="btn">Login</button>
+                    <button id="btn" onclick = "login()">Login</button>
                 </div>
                 <div class="signup-btn">
                     <a href = "../html/sign_up.html"><button id="btn">Sign Up!</button></a>
@@ -25,5 +25,7 @@
             <h5>Sign up today and recieve 15% off your first order!</h5>
         </div>
     </div>
+    <script src = "../js/login.js"></script>
+    <script src = "../js/db.js"></script>
 </body>
 </html>
