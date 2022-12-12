@@ -6,7 +6,7 @@ html[data-theme='light'] {
     --item:gray;
     --item-in:lightgray;
     --text:black;
-    --link:gray;
+    --link:black;
 }
 
 html[data-theme='dark'] {

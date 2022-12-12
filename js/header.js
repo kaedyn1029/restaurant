@@ -11,6 +11,7 @@ function make_item(name){
 
 function start(){
     parent.document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.setAttribute('data-theme', 'light');
     for (let x in test){
                 make_item(test[x][0])
     }
