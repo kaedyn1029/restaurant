@@ -1,35 +1,65 @@
+@import url(colors.css);
+
 *{
-    padding: 0;
+
+    transition: 1s;
+}
+
+body{
+    background-color: var(--background);
+    color: var(--text);
     margin: 0;
-    box-sizing: border-box;
-}
-.total{
-    padding: 2em;
     text-align: center;
+    height: calc(100vh - 4em);
+    overflow: scroll;
 }
-.payment{
-    text-align: center;
-    padding-bottom: 2em;
+
+main{
+    height: 90%;
+    width: 40%;
+    margin: auto;
+    margin-top: 2em;
+    padding: .5em;
+    background-color: var(--item);
+    border-radius: 1em;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: 4em 2em auto;
 }
-.payment-section{
-    text-align: center;
+
+iframe{
+    width: 100%;
+    height: 4em;
+    margin: 0;
+    border: none;
+    padding: none;
+    background-color: var(--header);
 }
-.payment-section p{
-    font-size: 12px;
+
+hr{
+    width: 100%;
+    background-color: black;
 }
-.Credit{
-    display: none;
+
+#forms{
+    border-radius: 1em;
+    background-color: var(--item-in);
+    overflow: scroll;
+    scrollbar-width: none;
 }
-.input{
-    padding: 0.6em;
+
+form{
+    padding: 1em;
+    height: calc(100%);
+    width: inherit;
+    background-color: none;
 }
-.MMYY{
-    padding: 0.6em;
+
+h2{
+    margin: 0;
 }
-.CVV{
-    padding: 0.6em;
-}
-.CVV input{
-    text-align: center;
-    width: 2%;
+
+#card{
+    display: grid;
+    grid-gap: 1em;
 }
