@@ -80,3 +80,9 @@ function update_price(){
     }
     out.innerHTML="Price:$"+p
 }
+
+function price_save(){
+    let p=document.getElementById("price")
+    localStorage.setItem("$", p.innerHTML.toString())
+    window.location.href = "payment.html";
+}

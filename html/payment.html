@@ -4,7 +4,7 @@
     <title>Payment</title>
     <link rel="Stylesheet" href="../css/payment.css">
 </head>
-<body>
+<body onload="document.getElementById('price').innerHTML=localStorage.getItem('$').slice(6)">
     <iframe src="header.html"></iframe>
     <main>
 
@@ -35,6 +35,5 @@
             </form>
         </div>
     </main>
-</body>
 </body>
 </html>
