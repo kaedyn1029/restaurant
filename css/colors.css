@@ -20,3 +20,7 @@ html[data-theme='dark'] {
     --link: #FFF;
 
 }
+
+*{
+    transition: 1s;
+}
