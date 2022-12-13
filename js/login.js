@@ -11,6 +11,12 @@ function login(){
     }
 }
 
+function remove(){
+    if(check()){
+        localStorage.removeItem(email.value)
+    }
+}
+
 function load(){
     localStorage.setItem("login","")
 }
