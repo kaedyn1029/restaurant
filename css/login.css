@@ -1,55 +1,52 @@
-*{
+@import url(colors.css);
+
+body{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    background-color: var(--background);
 }
 
-html, body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-}
-input{
-    width: 100%;
-    padding: 1em;
-    margin-top: 1.5em;
+iframe{
+    background-color: var(--header);
     border: none;
-    border-radius: 1rem;
+    width: 100%;
+    height: 4em;
 }
-.login-form input{
-    display: block;
-    margin-bottom: 4px;
+
+div{
+    width: 30%;
+    height: 55vh;
+
+    margin: auto;
+    margin-top: 15vh;
+    padding: 3em;
+
+    color: var(--text);
+    background-color: var(--item);
+    border-radius: 3em;
+
+    box-sizing: border-box;
+    text-align: center;
+
+    display: grid;
 }
-.btn-container{
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 20px;
-}
-#btn{
+
+span{
     margin:auto;
-    display: inline-block;
-    background-color: white;
-    padding: 0.5em 1em 0.5em 1em;
-    border-radius: 1rem;
 }
-#btn:hover{
-    outline: 2px solid rgb(255, 255, 255);
+
+input{
+    text-align: center;
 }
-.signup-bonus{
-    padding-top: 20px;
+
+h2{
+    margin: 0;
 }
-.signup-bonus h5{
-    background-color: aliceblue;
+
+button{
+    border: none;
 }
-.recovery{
-    color: white;
-    opacity: 80%;
-    transition: 0.3s ease;
-}
-.recovery:hover{
-    color: purple;
+
+a{
+    color: var(--link);
 }
