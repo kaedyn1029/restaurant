@@ -4,7 +4,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="../css/login.css">
 </head>
-<body>
+<body onload="localStorage.setItem('login','')">
     <iframe src="header.html"></iframe>
     <div>
         <h2>Login</h2>
@@ -13,7 +13,7 @@
         <span>
             <button id="btn" onclick="login()">login</button>
             <button>remove account</button>
-            <button id="btn">sign up</button>
+            <button id="btn" onclick="window.location.href='sign_up.html'">sign up</button>
         </span>
         <a href="#" class="recovery">Forgot password?</a>
     </div>

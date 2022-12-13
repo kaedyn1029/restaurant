@@ -23,11 +23,11 @@ function start(){
     for (let x in test){
                 make_item(test[x][0])
     }
+    if(localStorage.getItem("login")!==""){
+        let log=document.getElementById("log")
+        log.innerHTML=JSON.parse(localStorage.getItem(localStorage.getItem("login"))).username
+    }
     load_logo()
-}
-
-function load_logo(){
-    img.src=getimg("logo")
 }
 
 function change_mode(){
@@ -47,4 +47,8 @@ function change_mode(){
 
     }
     
+}
+
+function load_logo(){
+    img.src=localStorage.getItem("logo")
 }

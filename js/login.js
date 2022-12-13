@@ -1,15 +1,27 @@
 let login_btn = document.getElementById("btn");
 let email = document.getElementById("email");
 let password = document.getElementById("pass");
+
 function login(){
+    if(check()){
+        localStorage.setItem("login", email.value)
+        window.location.href = "index.html"
+    }
+}
+
+function load(){
+    localStorage.setItem("login","")
+}
+
+function check(){
      if((email !== "") || (password !== "")){
          let user = get_user(email.value);
          if(user !== null){
              let real_pass = user.salt;
              if(real_pass == salt(pass.value)){
-                 console.log("Verified");
+                 return true
              } else {
-                 console.log("Unverified");
+                 return false
              }
          } else {
              console.log("User does not exist");

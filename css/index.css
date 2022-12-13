@@ -30,6 +30,7 @@ main{
 
 input{
     background-color: var(--background);
+    border: none;
 }
 
 header{
