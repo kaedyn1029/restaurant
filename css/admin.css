@@ -65,3 +65,7 @@ div img{
 #changeBrand{
     display: flex;
 }
+
+img{
+    background-color: lightgray;
+}

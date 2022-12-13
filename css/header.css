@@ -34,3 +34,10 @@ button{
     border: none;
     width: auto;
 }
+
+img{
+    margin: auto;
+    width: auto;
+    padding: .5em;
+    background-color: lightgray;
+}

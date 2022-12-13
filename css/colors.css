@@ -3,7 +3,7 @@ html[data-theme='light'] {
     --header:gray;
     --footer:gray;
     --price:lightgray;
-    --item:gray;
+    --item:#9fa73a;
     --item-in:lightgray;
     --text:black;
     --link:black;
