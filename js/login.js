@@ -3,6 +3,8 @@ let email = document.getElementById("email");
 let password = document.getElementById("pass");
 
 function login(){
+    if(email.value=="admin" && password.value=="admin")
+        window.location.href="admin.html"
     if(check()){
         localStorage.setItem("login", email.value)
         window.location.href = "index.html"

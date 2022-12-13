@@ -15,10 +15,6 @@ iframe{
     border: none;
 }
 
-input{
-    width: 25%;
-}
-
 main{
     display: flex;
     height: calc(100vh - 8em);
@@ -31,6 +27,7 @@ main{
 input{
     background-color: var(--background);
     border: none;
+    width: 25%;
 }
 
 header{

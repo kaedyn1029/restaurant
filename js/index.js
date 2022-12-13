@@ -84,5 +84,5 @@ function update_price(){
 function price_save(){
     let p=document.getElementById("price")
     localStorage.setItem("$", p.innerHTML.toString())
-    window.location.href = "payment.html";
+    window.location.href = "payment.html#location";
 }

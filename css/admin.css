@@ -1,13 +1,22 @@
+@import url(colors.css);
+
 body{
     margin: 0px;
     padding: 0px;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+main{
+    height: calc(100vh - 4em);
+    overflow: scroll;
 }
 
 iframe{
     border: none;
     height: 4em;
     width: 100vw;
-    background-color: pink;
+    background-color: var(--header);
 }
 
 img{
@@ -15,7 +24,7 @@ img{
 }
 
 section{
-    background-color: lightgrey;
+    background-color: var(--item);
     width: 75%;
     margin: auto;
     margin-top: 1em;
@@ -39,7 +48,7 @@ li{
 }
 
 li div{
-    background-color: gray;
+    background-color: var(--item-in);
     width: auto;
     display: inline-grid;
 }
